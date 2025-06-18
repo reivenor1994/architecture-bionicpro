@@ -3,7 +3,8 @@
   "enabled": true,
   "sslRequired": "none",
   "attributes": {
-    "frontendUrl": "http://keycloak:8080"
+    "frontendUrl": "http://keycloak:8080",
+    "issuer": "http://keycloak:8080/realms/reports-realm"
   },
   "roles": {
     "realm": [
